@@ -1,71 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dive deeper into science through our exhibitions">
-    <title>Stavanger Science Museum | Exhibitions</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <script src="https://kit.fontawesome.com/13885ac67d.js" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Welcome to Stavanger Science Museum - a place to explore together!">
+        <title>Stavanger Science Museum | Home</title>
+        <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/13885ac67d.js" crossorigin="anonymous"></script>
+    </head>
 <body>
-    <header>
+    <header class="grid_header">
+        <a href="index.html"><img src="./Assets/open-science-735787.jpg" class="logo_header" alt="The Stavanger Science Museum logo"></a>
+        <div class="text_header">
+            <p>Stavanger Science Museum</p>
+        </div>
+        <input class="search" type="search" placeholder="Search">
         <input type="checkbox" id="menu-checkbox">
-      <label for="menu-checkbox" class="hamburger_icon"><i class="fas fa-bars"></i></label>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="aboutus.html">Get to know us</a>
-        <a class="active" href="exhibitions.html">Exhibitions</a>
-        <a href="openinghouers.html">Opening Hours</a>
-        <a href="contribution.html">Get Involved</a>
-        <a href="contactform.html">Contact us</a>
-      </nav>
-    <a href="index.html"><img src="./Assets/open-science-735787.jpg" class="logo_header" alt="The Stavanger Science Museum logo"></a>
-    <input class="search" type="search" placeholder="Search">
-    <div>
-      <nav class="navigaton_bar">
-          <a class="deskop-nav" href="exhibitions.html">Exhibitions</a>
-          <a class="deskop-nav" href="contactform.html">Contact</a>
-          <a class="deskop-nav" href="contribution.html">Get Involved</a>
-      </nav>
-    </div>
-    </header>
+        <label for="menu-checkbox" class="hamburger_icon"><i class="fas fa-bars"></i></label>
+        <nav>
+          <a class="active" href="index.html">Home</a>
+          <a href="aboutus.html">Get to know us</a>
+          <a href="exhibitions.html">Exhibitions</a>
+          <a href="openinghouers.html">Opening Hours</a>
+          <a href="contribution.html">Get Involved</a>
+          <a href="contactform.html">Contact us</a>
+        </nav>
+        <div>
+          <nav class="navigaton_bar">
+              <a class="deskop-nav" href="exhibitions.html">Exhibitions</a>
+              <a class="deskop-nav" href="contactform.html">Contact</a>
+              <a href="contribution.html"></a>
+              <a class="deskop-nav" href="contribution.html">Get Involved</a>
+          </nav>
+        </div>
+        </header>
     <main>
         <h1>Exhibition Spaces</h1>
-        <section>
-            <div class="green_container">
-                <img src="./Assets/celso-405219.jpg" alt="the moon i different shapes">
+        <section class="grid_exhibition">
+            <div class="green_container_exhibition box1">
+                <img class="exhibition_img" src="./Assets/celso-405219.jpg" alt="the moon i different shapes">
                 <h3>Cosmology</h3>
                 <p>Explore the wonders of our cosmos!</p>
                 <a class="exhibitions_button" href="cosmology.html">Explore</a>
             </div>
-            <div class="beige_container">
-                <img src="./Assets/skeleton-414543_1920.jpg" alt="Three skeletons showing the progress in evolution">
+            <div class="beige_container_exhibition box2">
+                <img class="exhibition_img" src="./Assets/skeleton-414543_1920.jpg" alt="Three skeletons showing the progress in evolution">
                 <h3>Evolution</h3>
                 <p>Discover the origins of life on this planet and how the species we know 
                 today have evolved our time!</p>
                 <a class="exhibitions_button" href="evolution.html">Explore</a>
             </div>
-        </section>
-        <section>
-            <div class="beige_container">
-                <img src="./Assets/samuel-zeller-158996.jpg" alt="Red image of a young boy with headphones and virtual reality glasses">
+            <div class="beige_container_oblong box3">
+                <img class="exhibition_img_red"src="./Assets/samuel-zeller-158996.jpg" alt="Red image of a young boy with headphones and virtual reality glasses">
                 <h3>Robotics and AI</h3>
                 <p>The information revolution is here and robotics and artificial intelligence are the science of the future!
                 </p>
                 <p class="exhibitions_button">Explore</p>
             </div>
-        </section>
-        <section>
-            <div class="beige_container">
-                <img src="./Assets/heart-2607178_1920.jpg" alt="figure of an anatomical heart">
+            <div class="beige_container_exhibition box4">
+                <img class="exhibition_img" src="./Assets/heart-2607178_1920.jpg" alt="figure of an anatomical heart">
                 <h3>Biology and Medicine</h3>
                 <p>From micro-organisms to the human body!</p>
                 <p class="exhibitions_button">Explore</p>
             </div>
-            <div class="green_container">
-                <img src="./Assets/genoa-956405_1920.jpg" alt="Figure of an big ant">
+            <div class="green_container_exhibition box5">
+                <img class="exhibition_img" src="./Assets/genoa-956405_1920.jpg" alt="Figure of an big ant">
                 <h3>Ecology</h3>
                 <p>Unpack the dangers we currently face including global warming, extinction of species, and pollution!</p>
                 <p class="exhibitions_button">Explore</p>
