@@ -1,5 +1,6 @@
 
 
+
 /***Fonts***/
 
 h1, h2, h3, h4, p, a, li, nav, .search, input, textarea {
@@ -67,10 +68,9 @@ p {
 
 .exhibition_img_description {
     width: 312px;
+    top: 25em;
     position: absolute;
     z-index: 1;
-    margin-left: 1em;
-    margin-bottom: 1em;
 }
 
 .contribute_img {
@@ -167,10 +167,11 @@ nav a {
 }
 
 .beige_backroundcolor_description {
-    position: relative;
-    z-index: 2;
-    width: 393px;
-    height: 370px;
+    height: 340px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .beige_backroundcolor_contribution {
@@ -320,6 +321,7 @@ nav a {
     margin: 0 0px 8em 8em;
 }
 
+
 .text_exhibition {
     width: 120px;
     height: 82px;
@@ -341,8 +343,38 @@ nav a {
     width: 290px;
 }
 
+.title_description {
+    width: 17em;
+    margin-top: 3em;
+}
+
+.text_description {
+    margin-top: 8em;
+    position: relative;
+    z-index: 2;
+    width: 20em;
+}
+
+.title_openinghours {
+    order: 1;
+    align-self: flex-start;
+}
+
+.openinghouers {
+    order: 2;
+    width: 176px;
+    height: 175px;
+}
+
+.opening_text2 {
+    order: 3;
+    width: 283px;
+    height: 195px;
+    margin: 0;
+}
+
 .grid_about, .grid_exhibition, .grid_explore, .grid_footer, .grid_header, .grid_newest_events, .beige_backroundcolor, 
-.beige_backroundcolor_contact {
+.beige_backroundcolor_contact, .grid_description {
     display: grid;
 }
 
@@ -362,6 +394,11 @@ nav a {
 .grid_exhibition {
     grid-template-columns: 10em 10em;
     grid-template-rows: 24em 15em 24em;
+}
+
+.grid_description {
+    grid-template-rows: 20em 25em;
+    justify-items: center;
 }
 
 .box1 {
@@ -391,7 +428,7 @@ nav a {
 
 .green_border, .green_container, .beige_container, 
 .green_container_exhibition, .beige_container_exhibition, 
-.beige_container_oblong {
+.beige_container_oblong, .beige_container_opening {
     display: flex;
     flex-direction: column;
 }
@@ -412,12 +449,21 @@ nav a {
 }
 
 .green_container, .beige_container {
-    border: 10px solid;
     align-items: center;
 }
 
+.green_container, .beige_container, .beige_container_opening {
+    border: 10px solid;
+}
+
+.beige_container_opening {
+    padding-left: 10px;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
 .beige_container, .beige_container_exhibition, 
-.beige_container_oblong {
+.beige_container_oblong, .beige_container_opening {
     color: #E6D6B5;
 }
 
