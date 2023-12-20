@@ -25,6 +25,10 @@ h3 {
     margin: auto;
 }
 
+.h3_footer {
+    text-decoration: underline;
+}
+
 p {
     color: #030504;
     font-size:  16px;
@@ -95,6 +99,14 @@ p {
     width: 104px;
     height: 107px;
     border-radius: 100px;
+}
+
+.img_museum {
+    width: 122.231px;
+    height: 121.521px;
+    position: absolute;
+    margin-left: 13em;
+    margin-top: 7em;
 }
 
 /***Header***/
@@ -273,12 +285,12 @@ nav a {
 }
 
 
-.exhibitions_button, .exhibitions_button_oblong, .button_underheader {
+.exhibitions_button, .exhibitions_button_oblong, .button_underheader, .button_underheader_getinvolved {
     background-color: #3FA752;
     color: #fff;
 }
 
-.button_underheader {
+.button_underheader, .button_underheader_getinvolved {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -286,6 +298,12 @@ nav a {
     height: 50px;
     font-size: 16px;
     text-decoration: none;
+}
+
+.button_underheader_getinvolved {
+    width: 140px;
+    height: 33px;
+    align-items: center;
 }
 
 .contribution_button {
@@ -385,14 +403,10 @@ nav a {
 
 .openinghouers {
     order: 2;
-    width: 176px;
-    height: 175px;
 }
 
 .opening_text2 {
     order: 3;
-    width: 283px;
-    height: 195px;
     margin: 0;
 }
 
@@ -607,16 +621,22 @@ nav a {
     justify-content: center;
 }
 
+.img_museum {
+    margin-left: 18em;
+    width: 172px;
+    height: auto;
+}
+
+.address_footer {
+    width: 60%;
+}
+
 }
 
 @media (min-width:850px) {
 
     .exhibition_img_description, .exhibition_img_description_skeleton {
         width: 500px;
-    }
-
-    .exhibition_img_description_skeleton {
-
     }
 
     .text_description {
@@ -721,6 +741,10 @@ nav a {
     .grid_footer {
         margin-top: 5em;
     }
+
+    .address_footer {
+        width: 45%;
+    }
 }
 
 @media (min-width: 1028px) {
@@ -788,10 +812,15 @@ nav a {
     }
     
     
-    
     .img_about {
         width: 250px;
         height: 250px;
+    }
+
+    .img_museum {
+        width: 344px;
+        margin-top: 3em;
+        margin-left: 20em;
     }
     
     .logo_contact {
@@ -951,7 +980,7 @@ nav a {
         margin-bottom: 20em;
     }
 
-    .exhibitions_button, .exhibitions_button_oblong {
+    .exhibitions_button, .exhibitions_button_web, .exhibitions_button_oblong {
         width: 200px;
         height: 60px;
         font-size: 25px;
@@ -959,6 +988,11 @@ nav a {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .exhibitions_button_web {
+        margin-top: 4em;
+        margin-bottom: 2em;
     }
 
     .exhibitions_button_oblong {
