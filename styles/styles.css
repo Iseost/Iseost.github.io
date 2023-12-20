@@ -701,6 +701,11 @@ nav a {
         margin-left: 25em;
     }
 
+    .beige_container_opening {
+        width: 80%;
+        margin-left: 5em;
+    }
+
     .beige_backroundcolor_contribution {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
