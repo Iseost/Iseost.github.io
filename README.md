@@ -1,9 +1,13 @@
 # Semester-project-1---Science-Museum
 
+![image](https://github.com/Iseost/Iseost.github.io/assets/94354710/4959f31d-3ac7-44f9-869d-9944ed81a8f2)
+
+
 ## Description
 My second project, semester project, using HTML, CSS and my design skills as a frontend student at Noroff.
 
-
+Fimga link:
+[Link to figma fil](https://www.figma.com/design/DqkbNiKegW7d6MUD0f6QUt/Stavanger-Science-Museum?node-id=1-2&t=e1T3NEn9fBPixVDh-1)
 
 My "client" was a community science museum -  a museum were the taget audience is primary and middle school children (ages 7-15) and families with young children.
 
@@ -23,7 +27,7 @@ Clone the repo:
 git clone 
 https://github.com/Iseost/Gamehub.git
 
-##Contributing
+## Contributing
 Please review my code and feel free to suggest improvements. Make sure to open a pull request, so the code can be reviewed.
 
 ## Contact
