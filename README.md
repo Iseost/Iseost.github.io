@@ -20,6 +20,10 @@ User Stories
 - A visitor can view a terms and conditions page showing the museum's terms and conditions.
 
 
+## Build with
+
+The page is build with pure HTML and CSS
+
 ## Installing
 Clone the repo:
 
